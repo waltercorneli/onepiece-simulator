@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="onepiece-simulator"
-run/main_scene="uid://dg27rvvwkxi7n"
+run/main_scene="uid://dipurk6tkpq45"
 config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+ApiManager="*res://api_manager.gd"
 
 [dotnet]
 
